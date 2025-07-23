@@ -88,7 +88,7 @@ public class TicTacToeGUI extends JFrame implements ActionListener {
     }
 
     private void askRestart() {
-        int choice = JOptionPane.showConfirmDialog(this, "Play again?", "Restart", JOptionPane.YES_NO_OPTION);
+        int choice = JOptionPane.showConfirmDialog(this, "Play again win again?", "Restart", JOptionPane.YES_NO_OPTION);
         if (choice == JOptionPane.YES_OPTION) {
             resetBoard();
         } else {
