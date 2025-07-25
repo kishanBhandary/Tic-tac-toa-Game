@@ -42,7 +42,7 @@ public class TicTacToeGUI extends JFrame implements ActionListener {
             gameEnded = true;
             askRestart();
         } else if (isBoardFull()) {
-            JOptionPane.showMessageDialog(this, "It's a draw play again !");
+            JOptionPane.showMessageDialog(this, "It's a draw play again  play again pls!");
             gameEnded = true;
             askRestart();
         } else {
