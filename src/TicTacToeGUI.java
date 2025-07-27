@@ -8,8 +8,8 @@ public class TicTacToeGUI extends JFrame implements ActionListener {
     private boolean gameEnded = false;
 
     public TicTacToeGUI() {
-        setTitle("Tic-Tac-Toe Game");
-        setSize(400, 400);
+        setTitle("Tic-Tac-Toe Game ");
+        setSize(500, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new GridLayout(3, 3));
         initializeButtons();
@@ -38,11 +38,11 @@ public class TicTacToeGUI extends JFrame implements ActionListener {
         clicked.setText(String.valueOf(currentPlayer));
 
         if (checkWin()) {
-            JOptionPane.showMessageDialog(this, "Player " + currentPlayer + " wins!");
+            JOptionPane.showMessageDialog(this, "Player " + currentPlayer + " wins! Congraultions;");
             gameEnded = true;
             askRestart();
         } else if (isBoardFull()) {
-            JOptionPane.showMessageDialog(this, "It's a draw play again  play again pls!");
+            JOptionPane.showMessageDialog(this, "It's a draw play again  play again pls !");
             gameEnded = true;
             askRestart();
         } else {
