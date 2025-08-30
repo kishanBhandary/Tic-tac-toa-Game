@@ -9,7 +9,7 @@ public class TicTacToeGUI extends JFrame implements ActionListener {
     private boolean gameEnded = false;
 
     public TicTacToeGUI() {
-        setTitle("Tic-Tac-Toe Gameeeeeeee");
+        setTitle("Tic-Tac-Toe Gameeeeeeeee");
         setSize(500, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new GridLayout(3, 3));
